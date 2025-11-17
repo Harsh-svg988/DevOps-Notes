@@ -1,0 +1,16 @@
+mysql-data $ history
+    1  docker run -d -e MYSQL_ROOT_PASSWORD=admin -v /home/docker/mysql-data:/var/lib/mysql --name mysqlserver mysql
+    2  docker exec -it 6 bash
+    3  docker exec -it 6a bash
+    4  docker ps
+    5  docker exec -it 6ad bash
+    6  docker ps -a
+    7  docker exec -it 6ad0 bash
+    8  pwd
+    9  ls
+   10  cd ..
+   11  cd docker/mysql-data/
+   12  ls
+   13  cd classicmodels/
+   14  history
+   
